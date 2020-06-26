@@ -413,7 +413,23 @@ body {
     }
 }
 
-@media all and (max-width:1540px) {
+@media all and (max-width:1600px) {
+    .main-con-head {
+        margin-top: 20rem;
+
+    }
+}
+
+@media all and (max-width:1550px) {
+    .main-con-head {
+        margin-top: 10rem;
+
+    }
+        .main-con-head {
+    }
+}
+
+@media all and (max-width:1400px) {
     .header-content video {
         height: 60vh;
     }
