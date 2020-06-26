@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 62.5%;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+}
+
+.body {
+    box-sizing: border-box;
+    background: url(bg.png);
+    background-size: cover;
+    padding: 5rem 5rem;
+    color: whitesmoke;
+}
+
+.container-1 {
+    margin-top: 16rem;
+
+}
+
+.container-1 h2 {
+    font-size: 6rem;
+}
+
+.ntcc {
+    font-size: 15rem;
+    margin-right: 3rem;
+    background: linear-gradient(to right, #43196b, #e4c9f4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 300;
+    animation-name: moveinLeft;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+
+
+}
+
+.container-2 {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.container-rws,
+.container-n-rws {
+    border: 0.8px solid white;
+    font-size: 2rem;
+    color: #d1d1d1;
+    padding: 3rem;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
+    border-radius: 2px;
+}
+
+.container-rws {
+    margin-right: 2rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 3rem;
+    width: 60%;
+    padding: 1rem 1.2rem;
+    font-size: 1.7rem;
+    border-radius: 4rem;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+
+/*=========================animation==========================*/
+
+.button:link,
+.button:visited {
+    transition: all 0.5s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    border: 1px solid #6e4594;
+    color: #6e4594;
+}
+
+.button:active {
+    transform: translateY(-1px);
+    border: 1px solid #6e4594;
+}
+
+.container-rws:hover {
+    transform: scale(1.1);
+}
+
+.container-n-rws:hover {
+    transform: scale(1.1);
+}
+
+
+@keyframes moveinLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
+
+/*==================================media ========================*/
+@media all and (max-width:1800px) {
+    .container-2 {
+        width: 70%;
+    }
+
+    .container-n-rws a {
+        width: 70%;
+    }
+}
+
+@media all and (max-width:1168px) {
+    .container-2 {
+        width: 90%;
+    }
+
+    .container-n-rws a {
+        width: 70%;
+    }
+}
+
+@media all and (max-width:900px) {
+
+    .body {
+        padding: 3rem;
+    }
+
+    .container-2 {
+        width: 98%;
+    }
+}
+
+@media all and (max-width:761px) {
+    .body {
+        padding: 1rem;
+    }
+
+    .container-1 {
+        margin-top: 1rem;
+    }
+
+    .container-2 {
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 8rem;
+    }
+
+    .container-rws {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media all and (max-width:550px) {
+
+    .container-2 {
+        width: 95%;
+
+    }
+
+    .button {
+        margin-left: 8rem;
+    }
+
+    .container-rws:hover {
+        transform: scale(1);
+    }
+
+    .container-n-rws:hover {
+        transform: scale(1);
+    }
+
+
+}
+
+
+
+/*======================================rwd================================================*/
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.header-content {
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.header-content video {
+    height: 80vh;
+    position: absolute;
+    top: 6rem;
+    right: 0rem;
+    z-index: -1;
+
+}
+
+.header-content h1 {
+    z-index: 1;
+    font-size: 16rem;
+    padding-top: 5rem !important;
+    padding: 4rem;
+
+}
+
+.header-content h1 span {
+    color: #40adc2;
+}
+
+
+.main-con-head {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 20rem;
+    font-weight: 900;
+
+}
+
+.main-container {
+    padding: 6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.rwd-defn,
+.rwd-offer {
+    width: 40%;
+    float: left;
+    font-size: 2rem;
+
+}
+
+.rwd-defn {
+    text-align: justify;
+}
+
+.rwd-offer {
+    padding: 2rem;
+    outline: 1.5rem solid #40adc2;
+    text-align: right;
+}
+
+
+.need {
+    margin-top: 15rem;
+    background: url(1.png);
+    display: block;
+    box-sizing: border-box;
+}
+
+.need-text {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+}
+
+.need-text h1 {
+    font-size: 9rem;
+    margin-top: -4rem;
+}
+
+.challanges {
+    margin-top: 10rem;
+    padding: 5rem;
+
+}
+
+.challanges h1 {
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.challanges h1 span {
+    font-size: 12rem;
+    color: #df9d47;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.challanges p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+
+.advantages {
+    margin-top: 10rem;
+    padding: 5rem;
+}
+
+.advantages h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: right;
+}
+
+.adv {
+    font-size: 12rem;
+    color: #df9d47;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.advantages p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.footer {
+    margin-top: 6rem;
+    padding: 4rem
+}
+
+.footer h1 {
+    font-size: 7rem
+}
+
+.fot {
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #40adc2;
+
+}
+
+.footer p {
+    text-align: right;
+    font-size: 2rem;
+    color: #df9d47;
+}
+
+
+/*==========================media===================================*/
+
+@media all and (max-width:2000px) {
+    .main-con-head {
+        margin-top: 50rem;
+
+    }
+}
+
+@media all and (max-width:1500px) {
+    .header-content video {
+        height: 60vh;
+    }
+
+    .main-con-head {
+        margin-top: 3rem;
+
+    }
+
+    .challanges h1 span {
+        font-size: 10rem;
+    }
+
+    .adv {
+        font-size: 10rem;
+    }
+}
+
+@media all and (max-width:1420px) {
+    .main-container {
+        padding: 2rem;
+    }
+
+    .need-text h1 {
+        font-size: 6rem;
+        margin-top: -2rem;
+    }
+
+    .challanges h1 span {
+        font-size: 6rem;
+        font-weight: 700;
+
+    }
+
+    .adv {
+        font-size: 7rem;
+
+        font-weight: 600;
+
+    }
+
+
+}
+
+@media all and (max-width:1100px) {
+    .header-content video {
+        height: 50vh;
+    }
+
+    .header-content h1 {
+        font-size: 10rem;
+    }
+
+    .main-con-head {
+        margin-top: 20rem;
+
+    }
+
+    .main-container {
+        padding: 0.5rem;
+        margin-top: 6rem;
+    }
+
+    .rwd-defn,
+    .rwd-offer {
+        font-size: 1.7rem;
+
+    }
+
+    .need-text h1 {
+        font-size: 4rem;
+        margin-top: 0rem;
+    }
+
+
+    .challanges h1 span {
+        font-size: 5rem;
+
+
+    }
+
+    .adv {
+        font-size: 5rem;
+
+
+    }
+
+    .challanges p {
+
+        font-size: 1.7rem;
+
+    }
+
+    .advantages p {
+
+        font-size: 1.7rem;
+
+    }
+}
+
+@media all and (max-width:1000px) {
+
+    .main-container {
+        flex-direction: column;
+
+    }
+
+    .rwd-defn,
+    .rwd-offer {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .rwd-offer {
+        margin-top: 9rem;
+        text-align: left;
+        width: 50%
+    }
+}
+
+@media all and (max-width:760px) {
+
+    .header-content h1 {
+        font-size: 7rem;
+    }
+
+    .need-text h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .need-text {
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20rem;
+    }
+
+    .challanges h1 span {
+        font-size: 3rem;
+
+
+    }
+
+    .adv {
+        font-size: 3rem;
+
+
+    }
+
+    .footer h1 {
+        font-size: 3rem
+    }
+
+    .fot {
+        font-size: 3rem;
+    }
+
+    .challanges p {
+
+        font-size: 1.7rem;
+        width: 98%;
+
+    }
+
+    .advantages p {
+
+        font-size: 1.7rem;
+        width: 98%;
+
+    }
+
+}
+
+
+@media all and (max-width:540px) {
+    .header-content h1 {
+        font-size: 6rem;
+    }
+
+    .main-con-head {
+        margin-top: 25rem;
+
+    }
+
+    .need-text {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+    .need {
+        background: transparent;
+    }
+
+    .challanges h1 {
+        font-size: 2rem;
+    }
+
+    .advantages h1 {
+        font-size: 2rem;
+    }
+}

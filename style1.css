@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 62.5%;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+}
+
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.header-content {
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.header-content video {
+    height: 80vh;
+    position: absolute;
+    top: 6rem;
+    right: 0rem;
+    z-index: -1;
+
+}
+
+.header-content h1 {
+    z-index: 1;
+    font-size: 16rem;
+    padding-top: 5rem !important;
+    padding: 4rem;
+
+}
+
+.header-content h1 span {
+    color: #40adc2;
+}
+
+
+.main-con-head {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 20rem;
+    font-weight: 900;
+
+}
+
+.main-container {
+    padding: 6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.rwd-defn,
+.rwd-offer {
+    width: 40%;
+    float: left;
+    font-size: 2rem;
+
+}
+
+.rwd-defn {
+    text-align: justify;
+}
+
+.rwd-offer {
+    padding: 2rem;
+    outline: 1.5rem solid #40adc2;
+    text-align: right;
+}
+
+
+.need {
+    margin-top: 15rem;
+    background: url(1.png);
+    display: block;
+    box-sizing: border-box;
+}
+
+.need-text {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+}
+
+.need-text h1 {
+    font-size: 9rem;
+    margin-top: -4rem;
+}
+
+.challanges {
+    margin-top: 10rem;
+    padding: 5rem;
+
+}
+
+.challanges h1 {
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.challanges h1 span {
+    font-size: 12rem;
+    color: #df9d47;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.challanges p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+
+.advantages {
+    margin-top: 10rem;
+    padding: 5rem;
+}
+
+.advantages h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    text-align: right;
+}
+
+.adv {
+    font-size: 12rem;
+    color: #df9d47;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.advantages p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.footer {
+    margin-top: 6rem;
+    padding: 4rem
+}
+
+.footer h1 {
+    font-size: 7rem
+}
+
+.fot {
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #40adc2;
+
+}
+
+.footer p {
+    text-align: right;
+    font-size: 2rem;
+    color: #df9d47;
+}
+
