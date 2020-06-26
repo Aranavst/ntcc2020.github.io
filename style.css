@@ -206,6 +206,28 @@ html {
 
 }
 
+@media all and (max-width:300px) {
+
+    .container-2,.container-rws {
+        flex-direction: column;
+
+    }
+
+    .button {
+        margin-left: 8rem;
+    }
+
+    .container-rws:hover {
+        transform: scale(1);
+    }
+
+    .container-n-rws:hover {
+        transform: scale(1);
+    }
+
+
+}
+
 
 
 /*======================================rwd================================================*/
