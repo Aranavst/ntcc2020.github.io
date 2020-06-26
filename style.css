@@ -622,14 +622,36 @@ body {
     .advantages h1 {
         font-size: 2rem;
     }
+    
+       .challanges p {
+
+        font-size: 1.7rem;
+        width: 98%;
+
+    }
+
+    .advantages p {
+
+        font-size: 1.7rem;
+        width: 98%;
+
+    }
+        .challanges,.advantages{
+        padding:1rem;
+        text-align: justify
+    }
 }
 
-@media all and (max-width:370px) {
+@media all and (max-width:380px) {
     .header-content h1 {
         font-size: 4.5rem;
     }
     
      .rwd-offer{
         width: 93%;
+    }
+    .challanges,.advantages{
+        padding:1rem;
+        text-align: justify
     }
 }
