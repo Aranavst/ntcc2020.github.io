@@ -413,7 +413,7 @@ body {
     }
 }
 
-@media all and (max-width:1500px) {
+@media all and (max-width:1540px) {
     .header-content video {
         height: 60vh;
     }
