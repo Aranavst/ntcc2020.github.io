@@ -187,7 +187,9 @@ html {
 @media all and (max-width:550px) {
     
     .body {
-        background:transparent;}
+        background:transparent;
+        background-color: black;
+    }
     
     .container-2 {
         width: 95%;
@@ -211,7 +213,8 @@ html {
 
 @media all and (max-width:450px) {
       .body {
-        background:transparent;}
+        background:transparent;
+    background-color: black;}
     .ntcc{
         font-size: 11rem;
     }
@@ -430,9 +433,6 @@ body {
 }
 
 @media all and (max-width:1400px) {
-    .header-content video {
-        height: 60vh;
-    }
 
     .main-con-head {
         margin-top: 3rem;
