@@ -206,15 +206,14 @@ html {
 
 }
 
-@media all and (max-width:300px) {
+@media all and (max-width:450px) {
 
-    .container-2,.container-rws {
-        flex-direction: column;
-
+    .ntcc{
+        font-size: 11rem;
     }
 
     .button {
-        margin-left: 8rem;
+        margin-left: 5.5rem;
     }
 
     .container-rws:hover {
@@ -589,7 +588,7 @@ body {
 
 @media all and (max-width:540px) {
     .header-content h1 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .main-con-head {
@@ -603,6 +602,10 @@ body {
         flex-direction: column;
         margin-left: 2rem;
     }
+    
+    .rwd-offer{
+        width: 95%;
+    }
 
     .need {
         background: transparent;
@@ -614,5 +617,15 @@ body {
 
     .advantages h1 {
         font-size: 2rem;
+    }
+}
+
+@media all and (max-width:370px) {
+    .header-content h1 {
+        font-size: 4.5rem;
+    }
+    
+     .rwd-offer{
+        width: 93%;
     }
 }
