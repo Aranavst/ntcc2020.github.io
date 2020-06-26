@@ -185,7 +185,10 @@ html {
 }
 
 @media all and (max-width:550px) {
-
+    
+    .body {
+        background:transparent;}
+    
     .container-2 {
         width: 95%;
 
@@ -207,7 +210,8 @@ html {
 }
 
 @media all and (max-width:450px) {
-
+      .body {
+        background:transparent;}
     .ntcc{
         font-size: 11rem;
     }
